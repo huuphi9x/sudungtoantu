@@ -1,0 +1,12 @@
+let inputWidth;
+let inputHeight;
+inputWidth = prompt("Enter the width");
+inputHeight = prompt("Enter the height");
+let width = parseInt(inputWidth);
+let height = parseInt(inputHeight);
+let arena = width * height;
+document.write("Enter width : " + width);
+document.write('<br/>');
+document.write("Enter height : " +height);
+document.write('<br/>');
+document.write("the arena is: " + arena);
